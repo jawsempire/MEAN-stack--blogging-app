@@ -1,0 +1,14 @@
+<mat-accordion multi="true" *ngIf="posts.length > 0">
+    <mat-expansion-panel class="each-accordian"  *ngFor="let p of posts">
+        <mat-expansion-panel-header class="each-header">
+            {{p.title}}
+        </mat-expansion-panel-header>
+        <p>{{p.content}}</p>
+        <mat-action-row>
+            <button mat-button color="accent">EDIT</button>
+            <button mat-button color="warn">DELETE</button>
+        </mat-action-row>
+    </mat-expansion-panel>
+</mat-accordion>
+<p  class="info-text" *ngIf="posts.length <= 0"> No Posts, G funk!</p>
+

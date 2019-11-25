@@ -1,0 +1,23 @@
+:host {
+    display: block;
+    margin-top: 1rem;
+
+}
+
+.each-accordian {
+    /* determines whether there is a space between the items */
+    /* margin-bottom: 1rem;  */
+    /* background: chartreuse; */
+    
+}
+
+.each-header {
+    /* border-bottom: beige 2px solid;
+    background-color: #dad6d6a9; */
+    
+}
+
+
+.info-text {
+    text-align: center;
+}
